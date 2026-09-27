@@ -5,3 +5,17 @@ body {
 h1{
     color: darkblue;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+form div{
+    margin-bottom: 10px;
+}
