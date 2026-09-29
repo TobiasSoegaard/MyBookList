@@ -1,21 +1,99 @@
 body {
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #1d1f20;
+    color: #dddddd;
 }
 
-h1{
-    color: darkblue;
+
+header {
+    background-color: #2e51a2;
+    padding: 15px 40px;
 }
+
+header h1 {
+    margin: 0 0 15px 0;
+    color: white;
+}
+
+.header-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.page-header {
+    border-bottom: 1px solid #444;
+    margin-bottom: 20px;
+}
+
+.page-header h2 {
+    margin-bottom: 5px;
+}
+
+.page-header p {
+    color: #999;
+}
+
+.book-list {
+    border: 1px solid #444;
+}
+
+.book-entry {
+    display: flex;
+    align-items: center;
+
+    padding: 18px 20px;
+
+    background-color: #202223;
+    border-bottom: 1px solid #444;
+
+    color: #5ca8e6;
+    text-decoration: none;
+}
+
+.book-entry:last-child {
+    border-bottom: none;
+}
+
+.book-entry:hover {
+    background-color: #292c2e;
+}
+
+.book-number {
+    width: 40px;
+    color: #999;
+}
+
+.book-title {
+    font-weight: bold;
+}
+
 
 footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: gray;
-    color: white;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #151617;
+    color: #999;
     text-align: center;
-}
-
-form div{
-    margin-bottom: 10px;
 }
